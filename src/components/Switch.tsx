@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 interface SwitchProps {
   mode: "DFS" | "BFS";
   setMode: (value: "DFS" | "BFS") => void;

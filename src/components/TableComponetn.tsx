@@ -1,5 +1,3 @@
-import React from "react";
-
 interface TableComponentProps {
   value: string | number;
   stateColor: string;

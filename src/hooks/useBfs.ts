@@ -2,12 +2,6 @@ import { useEffect, useState } from "react";
 import { dirs } from "../const/DIRS";
 import type { UseAlgorithmProps } from "./useDfs";
 
-interface UseBfsProps {
-  arr: number[][];
-  rows: number;
-  cols: number;
-}
-
 interface BfsState {
   visited: [number, number][];
   current: [number, number] | null;

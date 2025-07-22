@@ -1,7 +1,5 @@
-import React from "react";
 import { TableComponent } from "./TableComponetn";
 import { borderColorVariants, colorVariants } from "../const/COLORS";
-import { useBfs } from "../hooks/useBfs";
 import { useAlgorithmController } from "../hooks/useAlgoritmController";
 
 const arr = [
